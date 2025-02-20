@@ -3,9 +3,9 @@
         <!-- Hero Section -->
         <div class="bg-[url('/img-aboutus.jpg')] bg-no-repeat bg-cover gap-6 text-center relative before:content-[''] before:absolute before:inset-0 before:bg-[#25903B] before:opacity-75">
             <div class="relative z-10 flex flex-col gap-10 py-32 px-4">
-                <NuxtImg class="h-30 mx-auto mb-8" src="/monogram.png" alt="Hexion Monogram" format="webp"/>
-                <h1 class="text-white text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-normal font-courier">
-                    Evenementen
+                <NuxtImg class="h-30 mx-auto mb-8" src="/monogram.png" alt="Hexion Monogram" format="webp" data-aos="zoom-in"/>
+                <h1 class="text-white text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-normal font-courier" data-aos="fade-right">
+                    Evenementen 
                 </h1>
             </div>
         </div>
@@ -13,7 +13,7 @@
         <!-- Events Grid -->
         <div class="container mx-auto px-4 py-12">
             <div class="flex flex-row flex-wrap gap-6">
-                <div v-for="event in events" :key="event.id" 
+                <div v-for="event in events" :key="event.id" data-aos="fade-up"
                      class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                      <div class="p-6">
                         <div class="relative mb-4">

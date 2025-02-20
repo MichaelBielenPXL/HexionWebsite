@@ -1,7 +1,7 @@
 <template>
     <div class="fixed top-4 right-4 z-50">
         <!-- Hamburger Button -->
-        <button @click="isOpen = !isOpen" class="relative z-50 p-2">
+        <button data-aos="zoom-in" @click="isOpen = !isOpen" class="relative z-50 p-2">
             <div class="w-8 h-6 flex flex-col justify-between">
                 <span class="w-full h-0.5 bg-white rounded-lg transition-all"
                     :class="{ 'rotate-45 translate-y-2.5': isOpen }"></span>
