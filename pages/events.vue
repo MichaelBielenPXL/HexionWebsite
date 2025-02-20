@@ -79,7 +79,7 @@ const formatDate = (dateString: string) => {
 
 onMounted(async () => {
     try {
-        const response = await fetch('/events.json')
+        const response = await fetch('https://europe-west1-campus-3b536.cloudfunctions.net/hexion_event_fetch')
         const data = await response.json()
         events.value = data.events
     } catch (error) {
