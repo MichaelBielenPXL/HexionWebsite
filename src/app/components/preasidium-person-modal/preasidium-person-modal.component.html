@@ -1,0 +1,17 @@
+<div class="modal-background row pt-3 position-relative ">
+  <div class="col-4">
+    <img [src]="person.modalImg" class="modal-img">
+  </div>
+  <div class="col-8">
+    <div class="ms-3">
+      <h1 class="display-4"><b>{{ person.name }}</b></h1>
+      <div class="ms-1 mt-3">
+        <h4>{{ person.functie }}</h4>
+        <p>
+          {{ person.bio }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn-close modal-close" (click)="closeModal()" aria-label="Close"></button>
+</div>

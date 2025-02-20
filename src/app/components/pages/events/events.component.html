@@ -1,0 +1,56 @@
+<div class="bg_hx py-5">
+  <div class="container">
+    <div class="m-4">
+      <img class="monogram" src="/assets/monogram.png">
+    </div>
+    <div class="d-flex flex-wrap mx-auto mt-5 justify-content-center">
+      <div class="col-md-12">
+        <h1 class="display-1 text-white"> Evenementen
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5 mb-5">
+  <div class="row" *ngIf="Evenementen.length != 0">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-3 my-4 m rounded"
+         [attr.data-aos]="'fade-up'"
+         [attr.data-aos-delay]="calculateAOSDelay(i)"
+         *ngFor="let evenement of Evenementen; let i = index">
+      <div class="row">
+        <div class="col-12 rounded">
+          <div class="event-card">
+            <a [href]="evenement.link">
+              <img class="img-fluid" [src]="evenement.img" [alt]="evenement.title"/>
+            </a>
+            <div class="event-card-header p-4">
+              <h1>
+                {{evenement.title}}
+              </h1>
+              <p>
+                {{evenement.datum}}
+              </p>
+              <p>
+                <strong>
+                  {{evenement.locatie}}
+                </strong>
+              </p>
+              <hr>
+              <p>
+                {{evenement.description}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="Evenementen.length == 0 " class="my-5 py-5">
+    <h1 class="display-1 text-center text-dark"> Geen beschikbare evenements
+    </h1>
+  </div>
+</div>
+
+
+<app-footer/>

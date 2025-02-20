@@ -1,0 +1,92 @@
+.bg_hx {
+    background-image: linear-gradient(rgba(37, 144, 59, 0.75), rgba(37, 144, 59, 0.75)), url("/assets/img-aboutus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+}
+
+
+.monogram {
+    height: 60px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.cards {
+    position: absolute;
+    transform: translateY(-50%);
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.card-wrapper {
+    text-align: center;
+    padding: 20px 0;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.card-wrapper-child {
+    padding: 0 20px;
+    height: 100%;
+}
+
+
+.card-root {
+    padding: 0;
+}
+
+
+#first-child {
+    border: none;
+}
+
+
+.card-wrapper-child:nth-child(1) {
+    border-left: 1px solid black;
+}
+
+.preasidium {}
+
+.preasidium-person-img {
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.preasidium-person-animated {
+    width: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+.person-modal {
+    display: block;
+    position: sticky;
+    bottom: 10px;
+    left: 10px;
+}
+
+.bg_blurry {
+    filter: blur(5px);
+}
+
+.transition-modal-open {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+.transition-modal-closed {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    pointer-events: auto;
+    display: block;
+}
