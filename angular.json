@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Hexion:build:production"
+              "buildTarget": "Hexion:build:production"
             },
             "development": {
-              "browserTarget": "Hexion:build:development"
+              "buildTarget": "Hexion:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Hexion:build"
+            "buildTarget": "Hexion:build"
           }
         },
         "test": {
