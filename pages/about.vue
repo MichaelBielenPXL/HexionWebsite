@@ -18,7 +18,7 @@
                             class="w-3/4 md:w-full max-h-72 object-contain"/>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <p class="text-lg text-gray-700 leading-relaxed">
+                    <p class="text-lg text-gray-700 leading-relaxed text-justify">
                         In 2013 verrees Hexion in Hasselt, als de ultieme thuishaven voor digitale pioniers van PXL-DIGITAL. 
                         We zijn de bruisende verbinding tussen academische kennis en het levendige studentenleven. 
                         Als een gepassioneerde gemeenschap van informaticastudenten zijn we vastbesloten om opwindende 
@@ -45,11 +45,11 @@
             <!-- Statutes Section -->
             <div class="my-16 text-center">
                 <h2 class="text-4xl font-courier uppercase mb-8">De statuten</h2>
-                <NuxtLink to="/files/Hexion_Statuten_2022.pdf" 
+                <a href="/files/Hexion_Statuten.pdf"  
                           class="inline-block hover:opacity-90 transition-opacity">
                     <NuxtImg src="/statuten.png" alt="Statuten" format="webp"
                             class=" max-h-20 rounded-md mx-auto"/>
-                </NuxtLink>
+            </a>
             </div>
 
             <!-- Song Section -->
