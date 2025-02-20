@@ -44,3 +44,9 @@
     </main>
 </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Home | Studentenvereniging Hexion'
+})
+</script>

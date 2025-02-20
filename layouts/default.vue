@@ -1,4 +1,7 @@
 <template>
-    <slot/>
-    <Footer/>
+    <div>
+        <HamburgerMenu />
+        <slot/>
+        <Footer/>
+    </div>
 </template>

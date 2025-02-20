@@ -90,6 +90,11 @@
 </template>
 
 <script setup>
+
+useHead({
+  title: 'Over Ons | Studentenvereniging Hexion'
+})
+
 const sponsors = [
     { name: 'Cegeka', image: '/sponsors/logocegeka.png' },
     { name: 'PXL Stuvo', image: '/sponsors/stuvo.png' },

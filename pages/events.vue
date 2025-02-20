@@ -55,6 +55,11 @@
 </template>
 
 <script setup lang="ts">
+
+useHead({
+  title: 'Evenementen | Studentenvereniging Hexion'
+})
+
 import { ref, onMounted } from 'vue'
 import type { Event } from '../types/event'
 

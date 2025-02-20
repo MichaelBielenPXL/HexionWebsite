@@ -35,6 +35,11 @@
 </template>
 
 <script setup>
+
+useHead({
+  title: 'Praesidium | Studentenvereniging Hexion'
+}) 
+
 const praesidium = [
     {
         role: 'Praeses',
