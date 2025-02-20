@@ -13,6 +13,9 @@ export default {
       fontFamily: {
         'courier': ['Courier New', 'Courier', 'monospace'],
       },
+      colors: {
+        'hexion': '#259556',
+      },
     },
   },
   plugins: [],

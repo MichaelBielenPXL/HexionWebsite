@@ -3,5 +3,20 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-aos', '@nuxt/image']
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-aos',
+    '@nuxt/image',
+    '@vesp/nuxt-fontawesome'
+  ],
+  fontawesome: {
+    icons: {
+      solid: [
+        'calendar',
+        'location-dot'
+      ]
+    }
+  },
+
+
 })

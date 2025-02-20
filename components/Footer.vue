@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-[#259556] p-5 font-courier">
+    <footer class="bg-hexion p-5 font-courier">
       <div class="container mx-auto pt-4">
         <div class="flex flex-col md:flex-row gap-4">
           <!-- Pages Section -->
