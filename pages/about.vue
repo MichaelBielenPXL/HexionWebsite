@@ -31,8 +31,8 @@
 
             <!-- Sponsors Section -->
             <div class="my-16">
-                <h2 class="text-4xl font-courier text-center uppercase mb-12">Onze Sponsors</h2>
-                <div class="flex flex-wrap justify-center items-center gap-6">
+                <h2 class="text-4xl font-courier text-center uppercase mb-2">Onze Sponsors</h2>
+                <div class="flex flex-wrap justify-center items-center gap-3">
                     <NuxtImg v-for="(sponsor, index) in sponsors" 
                             :key="index"
                             :src="sponsor.image"
