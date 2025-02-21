@@ -30,6 +30,16 @@
                 </div>
             </div>
         </div>
+        <div class="mt-16 text-center max-w-2xl mx-auto" data-aos="fade-up">
+        <h1 class="text-4xl font-courier font-bold mb-4">Overige</h1>
+        <h3 class="text-lg text-gray-700 mb-6">
+            Overige praesidium jaren kunnen bekeken worden in onderstaande PDF Document.
+        </h3>
+        <a href="/files/HEXION-Geschiedenis.pdf"
+                class="inline-block bg-hexion text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors font-semibold">
+                Download / Bekijk hier
+        </a>
+        </div>
     </div>
     </main>
 </template>
