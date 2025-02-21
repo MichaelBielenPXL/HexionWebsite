@@ -14,7 +14,7 @@
 
         <!-- Menu Overlay -->
         <div v-if="isOpen" 
-             class="fixed inset-0 bg-black/95 flex items-center justify-center" data-aos="zoom-out">
+             class="fixed inset-0 bg-black/95 flex items-center justify-center w-screen" data-aos="zoom-out">
             <nav class="text-center">
                 <NuxtLink v-for="link in navLinks" 
                          :key="link.to" 

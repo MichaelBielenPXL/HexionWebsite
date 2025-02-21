@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'courier': ['Courier New', 'Courier', 'monospace'],
+        'courier': ['Courier New', 'CourierNew', 'Courier', 'monospace'],
       },
       colors: {
         'hexion': '#259556',
