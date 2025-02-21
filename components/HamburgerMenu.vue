@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed top-4 right-4 z-50">
+    <div class="absolute top-0 right-0 p-4 z-50">
         <!-- Hamburger Button -->
         <button data-aos="zoom-in" @click="isOpen = !isOpen" class="relative z-50 p-2">
             <div class="w-8 h-6 flex flex-col justify-between">
@@ -14,7 +14,7 @@
 
         <!-- Menu Overlay -->
         <div v-if="isOpen" 
-             class="fixed inset-0 bg-black/95 flex items-center justify-center">
+             class="fixed inset-0 bg-black/95 flex items-center justify-center" data-aos="zoom-out">
             <nav class="text-center">
                 <NuxtLink v-for="link in navLinks" 
                          :key="link.to" 
