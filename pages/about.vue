@@ -89,11 +89,12 @@
                         <br>
                         niet mee gevleid
                         <br>
+                        <br>
                         Hexion eist toegang, geef hier!
                         <br>
                         Hexion heeft toegang, geef bier!
                     </p>
-                    <audio controls class="w-full max-w-md mx-auto mt-6" data-aos="zoom-in">
+                    <audio controls class="w-full max-w-md mx-auto mt-8" data-aos="zoom-in">
                         <source src="/lied.mp3" type="audio/mpeg">
                     </audio>
                 </div>
