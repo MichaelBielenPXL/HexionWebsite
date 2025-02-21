@@ -58,26 +58,39 @@
                 <div class="max-w-2xl mx-auto">
                     <p class="text-center w-80 mx-auto">
                         Een informaticus is lui dat weet iedereen
+                        <br>
                         En toch heeft hij steeds massa's werk
+                        <br>
                         Uiterst geniaal ja dat zie je meteen
+                        <br>
                         Wie had ooit gedacht oh zo sterk
+                        <br>
                         In de nacht werkt hij door tot de zon weer op komt
+                        <br>
                         Geen teken van leven, maar toch kerngezond
                         <br>
                         <br>
                         De informaticus leeft, hij is hier!
+                        <br>
                         De informaticus leeft, geef hem bier!
                         <br>
                         <br>
                         Hexion beveelt je gooi open je poort
+                        <br>
                         Een informaticus wenst een netwerk
+                        <br>
                         Xie hij verlangt naar een digitaal oord
+                        <br>
                         ('t) Internet dat is zijn strijdperk
+                        <br>
                         Open of er wordt een virus verspreid
+                        <br>
                         Nee je systeem is hier
+                        <br>
                         niet mee gevleid
                         <br>
                         Hexion eist toegang, geef hier!
+                        <br>
                         Hexion heeft toegang, geef bier!
                     </p>
                     <audio controls class="w-full max-w-md mx-auto mt-6" data-aos="zoom-in">
