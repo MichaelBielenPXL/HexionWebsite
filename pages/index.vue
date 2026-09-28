@@ -15,7 +15,7 @@
                     <div class="w-full relative">
                         <NuxtLink to="/praesidium">
                             <img class="w-full h-40 lg:h-96 object-cover border border-neutral-800 rounded-3xl"
-                                src="/praesidium-1.jpg" alt="Praesidium">
+                                src="/AcademischeOpeningszittingHexion.jpg" alt="Praesidium">
                             <NuxtImg format="webp" class="absolute h-16 w-min bottom-5 right-5" src="/monogram.png"
                                 alt="Monogram" />
                         </NuxtLink>

@@ -55,7 +55,7 @@ const praesidium = [
         name: 'Matteo Ideler Cautaert',
         description: 'Voorzitter',
         emoji: '👑',
-        image: '/praesidium/mateo.jpg'
+        image: '/praesidium/matteo.jpg'
     },
     {
         role: 'Vice-Praeses',
