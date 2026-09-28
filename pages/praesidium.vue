@@ -66,10 +66,10 @@ const praesidium = [
     },
     {
         role: 'Ab-Actis',
-        name: 'Bieke Van Steen',
+        name: 'Bibi',
         description: 'Secretaris',
         emoji: '📚',
-        image: '/praesidium/bieke.jpg'
+        image: '/praesidium/person-none.jpg'
     },
     {
         role: 'Quaestor',
