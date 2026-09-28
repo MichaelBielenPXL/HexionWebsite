@@ -52,60 +52,76 @@ useHead({
 const praesidium = [
     {
         role: 'Praeses',
-        name: 'Lars Schrijvers',
+        name: 'Matteo Ideler Cautaert',
         description: 'Voorzitter',
         emoji: '👑',
-        image: '/praesidium/lars.jpg'
+        image: '/praesidium/matteo.jpg'
     },
     {
         role: 'Vice-Praeses',
-        name: 'Goran Deckers',
+        name: 'Wim Geelen',
         description: 'Ondervoorzitter',
         emoji: '🤴',
-        image: '/praesidium/goran.jpg'
+        image: '/praesidium/wim.jpg'
     },
     {
         role: 'Ab-Actis',
-        name: 'Matteo Ideler Cautaert',
+        name: 'Bieke Van Steen',
         description: 'Secretaris',
         emoji: '📚',
-        image: '/praesidium/mateo.jpg'
+        image: '/praesidium/bieke.jpg'
     },
     {
         role: 'Quaestor',
-        name: 'Senne Graulus',
+        name: 'Ian Van Den Bergh',
         description: 'Penningmeester',
         emoji: '💰',
+        image: '/praesidium/ian.jpg'
+    },
+    {
+        role: 'Schachtenmeester',
+        name: 'Meical Clifford',
+        description: 'Baas van de schachten',
+        emoji: '🙉',
+        image: '/praesidium/meical.jpg'
+    },
+    {
+        role: 'Schachtenmeester',
+        name: 'Kobe',
+        description: 'Baas van de schachten',
+        emoji: '🙉',
+        image: '/praesidium/kobe.jpg'
+    }
+    ,
+    {
+        role: 'P.R.',
+        name: 'Thomas Stappers',
+        description: 'Verzorgt public relations met bedrijven',
+        emoji: '📢',
+        image: '/praesidium/thomas.jpg'
+    },
+    {
+        role: 'Ontspanning',
+        name: 'Roel Knapen',
+        description: 'Verzorgt ontspanning en activiteiten voor de leden',
+        emoji: '🎉',
+        image: '/praesidium/roel.jpg'
+    },
+    {
+        role: 'Bacchus',
+        name: 'Michaël Bielen',
+        description: 'Verzorgt de drank en het bier voor de leden',
+        emoji: '🍺',
+        image: '/praesidium/michael.jpg'
+    },
+    {
+        role: 'Cantor',
+        name: 'Senne Graulus',
+        description: 'Verzorgt de cantussen voor de leden',
+        emoji: '🎶',
         image: '/praesidium/senne.jpg'
     },
-    {
-        role: 'Schachtenmeester',
-        name: 'Kiara Petillon',
-        description: 'Baas van de schachten',
-        emoji: '🙉',
-        image: '/praesidium/kiara.jpg'
-    },
-    {
-        role: 'Schachtenmeester',
-        name: 'Ian Van Den Bergh',
-        description: 'Baas van de schachten',
-        emoji: '🙉',
-        image: '/praesidium/ian.jpg'
-    }
-    // ,
-    // {
-    //     role: 'P.R.',
-    //     name: 'Niels Meuwissen',
-    //     description: 'Verzorgt public relations met bedrijven',
-    //     emoji: '📢',
-    //     image: '/praesidium/person-none.jpg'
-    // },
-    // {
-    //     role: 'Webmaster',
-    //     name: 'Jonathan Mercken',
-    //     description: 'Onderhoud de webserver en de Social Media',
-    //     emoji: '📟',
-    //     image: '/praesidium/person-none.jpg'
-    // }
+
+
 ]
 </script>
