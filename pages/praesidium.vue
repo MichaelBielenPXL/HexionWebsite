@@ -69,7 +69,7 @@ const praesidium = [
         name: 'Bibi',
         description: 'Secretaris',
         emoji: '📚',
-        image: '/praesidium/person-none.jpg'
+        image: '/praesidium/bieke.jpg'
     },
     {
         role: 'Quaestor',
