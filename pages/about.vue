@@ -33,12 +33,17 @@
             <div class="my-16" data-aos="fade-up">
                 <h2 class="text-4xl font-courier text-center uppercase mb-2">Onze Sponsors</h2>
                 <div class="flex flex-wrap justify-center items-center gap-3">
-                    <NuxtImg v-for="(sponsor, index) in sponsors" 
-                            :key="index"
-                            :src="sponsor.image"
-                            :alt="sponsor.name"
-                            format="webp"
-                            class="transition-shadow duration-300 max-w-[200px] w-full hover:opacity-90"/>
+                    <template v-for="sponsor in sponsors" :key="sponsor.name">
+                        <NuxtImg v-if="sponsor.logo"
+                                :src="sponsor.logo"
+                                :alt="sponsor.name"
+                                format="webp"
+                                class="transition-shadow duration-300 max-w-[200px] w-full hover:opacity-90"/>
+                        <NuxtLink v-else to="/sponsors"
+                                class="max-w-[200px] w-full text-center text-xl font-courier hover:opacity-90">
+                            {{ sponsor.name }}
+                        </NuxtLink>
+                    </template>
                 </div>
             </div>
 
@@ -109,8 +114,4 @@ useHead({
   title: 'Over Ons | Studentenvereniging Hexion'
 })
 
-const sponsors = [
-    { name: 'Cegeka', image: '/sponsors/logocegeka.png' },
-    { name: 'PXL Stuvo', image: '/sponsors/stuvo.png' },
-]
 </script>

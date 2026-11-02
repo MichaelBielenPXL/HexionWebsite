@@ -36,7 +36,7 @@ const isOpen = ref(false)
 const navLinks = [
     { to: '/', text: 'Home' },
     { to: '/praesidium', text: 'Praesidium' },
-    { to: '/events', text: 'Evenementen' },
+    { to: '/sponsors', text: 'Sponsors' },
     { to: '/about', text: 'Over ons' }
 ]
 </script>

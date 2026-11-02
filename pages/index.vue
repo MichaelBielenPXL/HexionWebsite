@@ -35,11 +35,11 @@
                 </div>
 
                 <div class="w-full mb-5" data-aos="fade-up">
-                    <h1 class="text-4xl py-12">Evenementen</h1>
+                    <h1 class="text-4xl py-12">Sponsors</h1>
                     <div class="w-full relative">
-                        <NuxtLink to="/events">
+                        <NuxtLink to="/sponsors">
                             <img class="w-full border h-40 lg:h-96 object-cover border-neutral-800 rounded-3xl"
-                                src="/events.jpg" alt="Evenementen">
+                                src="/sponsors.jpg" alt="Sponsors">
                             <NuxtImg format="webp" class="absolute h-16 w-min bottom-5 right-5" src="/monogram.png"
                                 alt="Monogram" />
                         </NuxtLink>
