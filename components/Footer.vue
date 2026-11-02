@@ -8,7 +8,7 @@
           <div class="flex flex-col gap-3">
             <NuxtLink to="/" class="text-white text-xl block hover:opacity-80">Home</NuxtLink>
             <NuxtLink to="/praesidium" class="text-white text-xl block hover:opacity-80">Praesidium</NuxtLink>
-            <NuxtLink to="/events" class="text-white text-xl block hover:opacity-80">Evenementen</NuxtLink>
+            <NuxtLink to="/sponsors" class="text-white text-xl block hover:opacity-80">Sponsors</NuxtLink>
             <NuxtLink to="/about" class="text-white text-xl block hover:opacity-80">Over ons</NuxtLink>
           </div>
         </div>
@@ -30,8 +30,13 @@
         <div class="flex-1">
           <h1 class="text-3xl font-light text-black py-2">Sponsors</h1>
           <div class="flex flex-wrap gap-2">
-            <NuxtImg v-for="(sponsor, index) in sponsors" :key="index" :src="sponsor.src" :alt="sponsor.alt"
-              class="h-12 object-contain p-2" format="webp" />
+            <template v-for="sponsor in sponsors" :key="sponsor.name">
+              <NuxtImg v-if="sponsor.logo" :src="sponsor.logo" :alt="`${sponsor.name} Logo`"
+                class="h-12 object-contain p-2" format="webp" />
+              <NuxtLink v-else to="/sponsors" class="h-12 flex items-center p-2 text-black hover:opacity-80">
+                {{ sponsor.name }}
+              </NuxtLink>
+            </template>
           </div>
         </div>
       </div>
@@ -46,11 +51,3 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-const sponsors = [
-  { src: '/sponsors/logocegeka.png', alt: 'Cegeka Logo' },
-  { src: '/sponsors/stuvo.png', alt: 'PXL Stuvo Logo' },
-
-]
-</script>
